@@ -23,6 +23,7 @@ def play_second_game(status, second_game_value)
         
       if select_second_game_value == second_game_value.index(random_second_game_value)
         puts status
+        exit
       end
     else
       puts "無効な入力です。もう一度試してください。"
